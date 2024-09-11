@@ -51,7 +51,7 @@ function Header() {
       transition = {{ duration:2.5, delay:3 }}
 
     className="fixed min-w-full shadow text-sm sm:text-lg z-50 justify-center">
-      <div className="container flex items-center justify-center py-3 lg:py-5 mx-auto capitalize text-white">
+      <div className="container flex items-center justify-center py-3 lg:py-5 mx-auto capitalize text-white bg-black">
         <a
           href="#Landing"
           className={linkClasses('Landing')}
