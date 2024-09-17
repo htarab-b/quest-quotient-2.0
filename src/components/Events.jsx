@@ -22,7 +22,7 @@ function Events() {
         whileInView = {{ opacity:1, x:0 }}
         transition = {{ duration:1, delay:0}}
         className="text-justify pt-3">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, vel totam odit debitis assumenda ipsum voluptatibus soluta ad veniam adipisci consequuntur tempora quibusdam autem, quam in quidem expedita atque numquam, ipsam sed. Repellendus, ea perspiciatis quas iste excepturi unde. Eum dolorem repellendus inventore vitae dolor perspiciatis ullam, sapiente accusantium tempora.
+          Check out our events and find the perfect opportunity to challenge yourself, connect with others, and grow. Register now to join in!
         </motion.p>
       </div>
 
