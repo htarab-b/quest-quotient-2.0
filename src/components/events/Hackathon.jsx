@@ -9,45 +9,51 @@ function Hackathon() {
                     <h1 className="text-4xl font-bold text-center">Hackathon Registration</h1>
                     <p className="pt-2 pb-4 text-center">Please read the rulebook below before applying</p>
                     <div className="">
-                        <p className="flex items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" className="w-8 h-8 mr-1">
+                        <p className="flex items-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" className="w-1/12 h-1/12 mr-1">
                                 <path d="M12.096 16q0 1.632 1.152 2.784t2.752 1.12 2.752-1.12 1.152-2.784-1.152-2.752-2.752-1.152-2.752 1.152-1.152 2.752z"></path>
                             </svg>
-                            <span>Point 1</span>
+                            <span className="w-11/12 mt-1 sm:mt-2">Teams should consist of exactly 3 members.</span>
                         </p>
-                        <p className="flex items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" className="w-8 h-8 mr-1">
+                        <p className="flex items-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" className="w-1/12 h-1/12 mr-1">
                                 <path d="M12.096 16q0 1.632 1.152 2.784t2.752 1.12 2.752-1.12 1.152-2.784-1.152-2.752-2.752-1.152-2.752 1.152-1.152 2.752z"></path>
                             </svg>
-                            <span>Point 2</span>
+                            <span className="w-11/12 mt-1 sm:mt-2">Teams should register before the given deadline.</span>
                         </p>
-                        <p className="flex items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" className="w-8 h-8 mr-1">
+                        <p className="flex items-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" className="w-1/12 h-1/12 mr-1">
                                 <path d="M12.096 16q0 1.632 1.152 2.784t2.752 1.12 2.752-1.12 1.152-2.784-1.152-2.752-2.752-1.152-2.752 1.152-1.152 2.752z"></path>
                             </svg>
-                            <span>Point 3</span>
+                            <span className="w-11/12 mt-1 sm:mt-2">Projects must be original. No reuse of previous projects.</span>
                         </p>
-                        <p className="flex items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" className="w-8 h-8 mr-1">
+                        <p className="flex items-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" className="w-1/12 h-1/12 mr-1">
                                 <path d="M12.096 16q0 1.632 1.152 2.784t2.752 1.12 2.752-1.12 1.152-2.784-1.152-2.752-2.752-1.152-2.752 1.152-1.152 2.752z"></path>
                             </svg>
-                            <span>Point 4</span>
+                            <span className="w-11/12 mt-1 sm:mt-2">Each team will be given 5 minutes to present their project.</span>
                         </p>
-                        <p className="flex items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" className="w-8 h-8 mr-1">
+                        <p className="flex items-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" className="w-1/12 h-1/12 mr-1">
                                 <path d="M12.096 16q0 1.632 1.152 2.784t2.752 1.12 2.752-1.12 1.152-2.784-1.152-2.752-2.752-1.152-2.752 1.152-1.152 2.752z"></path>
                             </svg>
-                            <span>Point 5</span>
+                            <span className="w-11/12 mt-1 sm:mt-2">Plagiarism or outsourcing will lead to disqualification.</span>
                         </p>
-                        <p className="flex items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" className="w-8 h-8 mr-1">
+                        <p className="flex items-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" className="w-1/12 h-1/12 mr-1">
                                 <path d="M12.096 16q0 1.632 1.152 2.784t2.752 1.12 2.752-1.12 1.152-2.784-1.152-2.752-2.752-1.152-2.752 1.152-1.152 2.752z"></path>
                             </svg>
-                            <span>Point 6</span>
+                            <span className="w-11/12 mt-1 sm:mt-2">The judges' decision is final and binding.</span>
+                        </p>
+                        <p className="flex items-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" className="w-1/12 h-1/12 mr-1">
+                                <path d="M12.096 16q0 1.632 1.152 2.784t2.752 1.12 2.752-1.12 1.152-2.784-1.152-2.752-2.752-1.152-2.752 1.152-1.152 2.752z"></path>
+                            </svg>
+                            <span className="w-11/12 mt-1 sm:mt-2">Every Participant has to bring their own devices.</span>
                         </p>
                     </div>
                 </div>
-                <form noValidate="" className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 my-auto">
+                <form noValidate="" className="flex flex-col py-6 space-y-6 md:py-0 px-6 my-auto">
                     <h3 className="text-2xl font-bold text-center">Fill the form to register</h3>
                     <label className="block">
                         <span className="mb-1">Full name</span>
