@@ -1,21 +1,9 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import {motion} from 'framer-motion';
 
 import down_icon from '../assets/down-icon.png'
 
 function Landing() {
-    useEffect(() => {
-        // Disable scrolling
-        document.body.style.overflow = 'hidden';
-
-        // Enable scrolling after 2 seconds
-        const timer = setTimeout(() => {
-        document.body.style.overflow = 'auto';
-        }, 4000);
-
-        // Cleanup timer if component unmounts
-        return () => clearTimeout(timer);
-    }, []);
     return (
         <div className="min-h-screen bg-black text-white flex items-center justify-center flex-wrap" id='Landing'>
             <div className="text-center w-full pointer-events-none">
