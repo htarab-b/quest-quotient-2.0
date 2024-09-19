@@ -126,7 +126,7 @@ function Ideathon() {
                             </div>
                         ))}
 
-                        <span className="text-center">Kindly pay Rs.100 to this Bank Account through UPI to register.</span>
+                        <span className="text-center">Kindly pay Rs.100 to this Bank Account through UPI to register. If you are facing issues regarding payment, contact Vimal - 7305658244</span>
                         <table className="table-auto w-full border-collapse border border-gray-300 bg-white text-black">
                             <tbody>
                             <tr>
