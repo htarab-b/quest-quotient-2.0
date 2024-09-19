@@ -22,7 +22,7 @@ function Events() {
         whileInView = {{ opacity:1, x:0 }}
         transition = {{ duration:1, delay:0}}
         className="text-justify pt-3">
-          Check out our events and find the perfect opportunity to challenge yourself, connect with others, and grow. Register now to join in!
+          Check out our exciting events and seize the perfect opportunity to challenge yourself, connect with others, and grow! With a combined prize pool of <strong className="text-xl">₹25,000</strong> up for grabs, don't miss your chance to join in and win big. Register now!
         </motion.p>
       </div>
 
@@ -78,7 +78,7 @@ function Events() {
               <div className="py-6 px-8 rounded-lg bg-white">
                 <h1 className="text-gray-700 font-bold text-2xl mb-3 hover:text-gray-900 hover:cursor-pointer">Buildathon</h1>
                 <p className="text-gray-700 tracking-wide">
-                  From concept to creation, let’s build impactful solutions that truly make a difference.
+                  From concept to creation, let's build impactful solutions that truly make a difference.
                 </p>
                 <Link to="/Buildathon" className="max-w-sm"><button className="mt-6 py-2 px-4 w-full bg-gray-800 text-white font-bold rounded-lg shadow-md hover:shadow-lg transition duration-300">Register Now</button></Link>
               </div>

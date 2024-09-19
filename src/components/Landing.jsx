@@ -2,6 +2,7 @@ import React from 'react';
 import {motion} from 'framer-motion';
 
 import down_icon from '../assets/down-icon.png'
+import sponsor from '../assets/sponsor.jpeg'
 
 function Landing() {
     return (
@@ -20,7 +21,7 @@ function Landing() {
                 transition = {{ duration:2, delay:2.25}}
                 className="LogoFont sm:pt-4 pt-2 sm:text-2xl">2.0</motion.h2>
             </div>
-            <div className="absolute bottom-64 sm:top-60 lg:top-80 text-lg sm:text-xl TaglineFont">
+            <div className="absolute bottom-60 sm:top-60 lg:top-80 text-lg sm:text-xl">
                 <motion.h3
                 initial = {{ opacity:0 }}
                 animate = {{ opacity:1 }}
@@ -28,6 +29,17 @@ function Landing() {
                     Ideating the Future
                 </motion.h3>
             </div>
+            <motion.div
+            initial = {{ opacity:0 }}
+            animate = {{ opacity:1 }}
+            transition = {{ duration:2.5, delay:3}}
+            onScroll = {{opacity:0}}
+            className="absolute top-32 pointer-events-none flex justify-center items-center flex-wrap sm:w-40 w-32">
+                <h2 className="sm:text-xl text-lg text-center">
+                    Title Sponsor
+                </h2>
+                <img src={sponsor} className="sm:w-24 w-20" />
+            </motion.div>
             <motion.div
             initial = {{ opacity:0 }}
             animate = {{ opacity:0.7 }}
