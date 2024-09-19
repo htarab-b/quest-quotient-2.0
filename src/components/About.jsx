@@ -15,7 +15,7 @@ function About() {
         initial = {{ opacity:0, x:-200 }}
         whileInView = {{ opacity:1, x:0 }}
         transition = {{ duration:1, delay:0}}
-        className="pt-4 text-justify">Quest Quotient returns for its second edition, proudly hosted by the Department of Computer Science. This premier technical symposium brings together the best minds to compete and collaborate across three dynamic events: Hackathon, Ideathon, and Buildathon. Scheduled for  24th and 25th of September 2024 , we invite all of the interested students to engage in a dynamic experience of competition and collaboration. Dive into coding challenges, ignite innovative ideas, and transform concepts into tangible solutions. Join us to push the boundaries of technology, network with peers, and drive forward the future of tech.</motion.p>
+        className="pt-4 text-justify">Quest Quotient returns for its second edition, proudly hosted by the Department of Computer Science. This premier technical symposium brings together the best minds to compete and collaborate across three dynamic events: Hackathon, Ideathon, and Buildathon. Scheduled for  25th and 26th of September 2024 , we invite all of the interested students to engage in a dynamic experience of competition and collaboration. Dive into coding challenges, ignite innovative ideas, and transform concepts into tangible solutions. Join us to push the boundaries of technology, network with peers, and drive forward the future of tech.</motion.p>
       </div>
       <div className="pt-10 px-8 sm:px-72">
         <motion.h1
