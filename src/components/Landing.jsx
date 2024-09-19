@@ -2,7 +2,7 @@ import React from 'react';
 import {motion} from 'framer-motion';
 
 import down_icon from '../assets/down-icon.png'
-import sponsor from '../assets/sponsor.jpeg'
+import sponsor from '../assets/Sponsor.jpeg'
 
 function Landing() {
     return (
