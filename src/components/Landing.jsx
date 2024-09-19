@@ -10,15 +10,23 @@ function Landing() {
                 <motion.h1
                 initial = {{ opacity:0 }}
                 animate = {{ opacity:1 }}
-                transition = {{ duration:2, delay:0.75}}
+                transition = {{ duration:2, delay:1.5}}
                 className="LogoFont sm:text-6xl text-4xl">
                     Quest Quotient
                 </motion.h1>
                 <motion.h2
                 initial = {{ opacity:0 }}
                 animate = {{ opacity:1 }}
-                transition = {{ duration:2, delay:1.5}}
+                transition = {{ duration:2, delay:2.25}}
                 className="LogoFont sm:pt-4 pt-2 sm:text-2xl">2.0</motion.h2>
+            </div>
+            <div className="absolute bottom-64 sm:top-60 lg:top-80 text-lg sm:text-xl TaglineFont">
+                <motion.h3
+                initial = {{ opacity:0 }}
+                animate = {{ opacity:1 }}
+                transition = {{ duration:1.5, delay:0.5 }}>
+                    Ideating the Future
+                </motion.h3>
             </div>
             <motion.div
             initial = {{ opacity:0 }}

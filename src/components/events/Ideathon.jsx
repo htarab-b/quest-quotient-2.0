@@ -126,6 +126,43 @@ function Ideathon() {
                             </div>
                         ))}
 
+                        <span className="text-center">Kindly pay Rs.100 to this Bank Account through UPI to register.</span>
+                        <table className="table-auto w-full border-collapse border border-gray-300 bg-white text-black">
+                            <tbody>
+                            <tr>
+                                <th className="border border-gray-300 px-4 py-2 text-left bg-white">BENEFICIARY NAME</th>
+                                <td className="border border-gray-300 px-4 py-2 bg-white">SRMIST - FSHKTR EVENTS</td>
+                            </tr>
+                            <tr>
+                                <th className="border border-gray-300 px-4 py-2 text-left bg-white">BANK NAME</th>
+                                <td className="border border-gray-300 px-4 py-2 bg-white">City Union Bank</td>
+                            </tr>
+                            <tr>
+                                <th className="border border-gray-300 px-4 py-2 text-left bg-white">BRANCH NAME</th>
+                                <td className="border border-gray-300 px-4 py-2 bg-white">Tambaram</td>
+                            </tr>
+                            <tr>
+                                <th className="border border-gray-300 px-4 py-2 text-left bg-white">ACCOUNT NO</th>
+                                <td className="border border-gray-300 px-4 py-2 bg-white">500101013732378</td>
+                            </tr>
+                            <tr>
+                                <th className="border border-gray-300 px-4 py-2 text-left bg-white">IFSC No</th>
+                                <td className="border border-gray-300 px-4 py-2 bg-white">CIUB0000117</td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                        <label className="block my-2">
+                            <span className="mb-1">UPI Transaction ID</span>
+                            <input
+                                type="text"
+                                name="entry.1282453396"
+                                className="block w-full rounded-sm shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-600 text-black p-1"
+                                required
+                                readOnly={submitted}
+                            />
+                        </label>
+
                         <button
                             type="submit"
                             className="self-center px-5 py-1 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 bg-violet-600 text-gray-50 focus:ring-violet-600 hover:ring-violet-600"

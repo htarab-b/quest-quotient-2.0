@@ -13,7 +13,7 @@ import Buildathon from './components/events/Buildathon';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/">
-      <Route path="/" element={<><Header /><Landing /><About /><Events /><Contact /></>} />
+      <Route path="/" element={<><Header /><Landing /><Events /><About /><Contact /></>} />
       <Route path="/Ideathon" element={<Ideathon />} />
       <Route path="/Hackathon" element={<Hackathon />} />
       <Route path="/Buildathon" element={<Buildathon />} />

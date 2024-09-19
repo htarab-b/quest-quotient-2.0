@@ -60,18 +60,18 @@ function Header() {
           Home
         </a>
         <a
-          href="#About"
-          className={linkClasses('About')}
-          onClick={() => handleLinkClick('About')}
-        >
-          About
-        </a>
-        <a
           href="#Events"
           className={linkClasses('Events')}
           onClick={() => handleLinkClick('Events')}
         >
           Events
+        </a>
+        <a
+          href="#About"
+          className={linkClasses('About')}
+          onClick={() => handleLinkClick('About')}
+        >
+          About
         </a>
         <a
           href="#Contact"
