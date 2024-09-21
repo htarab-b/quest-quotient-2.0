@@ -58,6 +58,33 @@ function Ideathon() {
                                 </svg>
                                 <span className="w-11/12 mt-1 sm:mt-2">The judges' decision is final and binding.</span>
                             </p>
+
+                            <p className="mt-5 text-2xl">Topics:</p>
+
+                            <p className="flex items-start ml-5">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" className="w-1/12 h-1/12 mr-1">
+                                    <path d="M12.096 16q0 1.632 1.152 2.784t2.752 1.12 2.752-1.12 1.152-2.784-1.152-2.752-2.752-1.152-2.752 1.152-1.152 2.752z"></path>
+                                </svg>
+                                <span className="w-10/12 mt-1 sm:mt-2">Cloud data centres consume vast amounts of energy. Can we create a sustainable cloud computing solution that reduces its carbon footprint?</span>
+                            </p>
+                            <p className="flex items-start ml-5">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" className="w-1/12 h-1/12 mr-1">
+                                    <path d="M12.096 16q0 1.632 1.152 2.784t2.752 1.12 2.752-1.12 1.152-2.784-1.152-2.752-2.752-1.152-2.752 1.152-1.152 2.752z"></path>
+                                </svg>
+                                <span className="w-10/12 mt-1 sm:mt-2">Urban areas often face significant traffic congestion during peak hours. How can we optimize traffic flow and reduce congestion?</span>
+                            </p>
+                            <p className="flex items-start ml-5">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" className="w-1/12 h-1/12 mr-1">
+                                    <path d="M12.096 16q0 1.632 1.152 2.784t2.752 1.12 2.752-1.12 1.152-2.784-1.152-2.752-2.752-1.152-2.752 1.152-1.152 2.752z"></path>
+                                </svg>
+                                <span className="w-10/12 mt-1 sm:mt-2">Mental health issues often escalate before professional help is sought. Can wearable technology predict potential mental health crises?</span>
+                            </p>
+                            <p className="flex items-start ml-5">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" className="w-1/12 h-1/12 mr-1">
+                                    <path d="M12.096 16q0 1.632 1.152 2.784t2.752 1.12 2.752-1.12 1.152-2.784-1.152-2.752-2.752-1.152-2.752 1.152-1.152 2.752z"></path>
+                                </svg>
+                                <span className="w-10/12 mt-1 sm:mt-2">Create a business model where farmers partner with corporates to produce value-added agricultural products, ensuring farmers receive higher profits. How can this collaboration be structured for mutual benefit and sustainability?</span>
+                            </p>
                         </div>
                     </div>
                     <form
