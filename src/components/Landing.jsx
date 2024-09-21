@@ -11,28 +11,28 @@ function Landing() {
                 <motion.h1
                 initial = {{ opacity:0 }}
                 animate = {{ opacity:1 }}
-                transition = {{ duration:2, delay:1.5}}
+                transition = {{ duration:2, delay:2}}
                 className="LogoFont sm:text-6xl text-4xl">
                     Quest Quotient
                 </motion.h1>
                 <motion.h2
                 initial = {{ opacity:0 }}
                 animate = {{ opacity:1 }}
-                transition = {{ duration:2, delay:2.25}}
-                className="LogoFont sm:pt-4 pt-2 sm:text-2xl">2.0</motion.h2>
-            </div>
-            <div className="absolute bottom-60 sm:top-60 lg:top-80 text-lg sm:text-xl">
+                transition = {{ duration:2, delay:2.75}}
+                className="LogoFont sm:pt-4 pt-2 sm:text-2xl">2.0
+                </motion.h2>
                 <motion.h3
                 initial = {{ opacity:0 }}
                 animate = {{ opacity:1 }}
-                transition = {{ duration:1.5, delay:0.5 }}>
+                transition = {{ duration:1.5, delay:1 }}
+                className="pt-3 sm:text-2xl text-xl text-center TaglineFont">
                     Ideating the Future
                 </motion.h3>
             </div>
             <motion.div
             initial = {{ opacity:0 }}
             animate = {{ opacity:1 }}
-            transition = {{ duration:2.5, delay:3}}
+            transition = {{ duration:2.5, delay:3.25}}
             onScroll = {{opacity:0}}
             className="absolute top-32 pointer-events-none flex justify-center items-center flex-wrap sm:w-40 w-32">
                 <h2 className="sm:text-xl text-lg text-center">
@@ -43,7 +43,7 @@ function Landing() {
             <motion.div
             initial = {{ opacity:0 }}
             animate = {{ opacity:0.7 }}
-            transition = {{ duration:2.5, delay:3}}
+            transition = {{ duration:2.5, delay:3.25}}
             onScroll = {{opacity:0}}
             className="absolute bottom-4 pointer-events-none flex justify-center items-center flex-wrap sm:w-40 w-32">
                 <h2 className="sm:text-2xl text-xl text-center">

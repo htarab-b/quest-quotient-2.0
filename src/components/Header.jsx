@@ -48,7 +48,7 @@ function Header() {
     <motion.nav 
       initial = {{ opacity:0 }}
       animate = {{ opacity:1 }}
-      transition = {{ duration:2.5, delay:3 }}
+      transition = {{ duration:2.5, delay:3.25 }}
 
     className="fixed min-w-full shadow text-sm sm:text-lg z-50 justify-center">
       <div className="container flex items-center justify-center py-3 lg:py-5 mx-auto capitalize text-white bg-black">
