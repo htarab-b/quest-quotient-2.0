@@ -9,9 +9,9 @@ function Contact() {
       whileInView = {{ opacity:1, x:0 }}
       transition = {{ duration:1, delay:0}}
       className="text-3xl sm:text-5xl text-center">
-        Stay in Touch
+        Contact us for Queries
       </motion.h1>
-      <motion.div 
+      {/* <motion.div 
       initial = {{ opacity:0 }}
       whileInView = {{ opacity:1 }}
       transition = {{ duration:1, delay:0.5 }}
@@ -89,6 +89,100 @@ function Contact() {
         </svg>
         <div className="absolute top-full left-0 w-full h-full rounded-full bg-red-500 z-0 transition-all duration-500 group-hover:top-0"></div>
         </a>
+      </motion.div> */}
+      <motion.div
+      initial = {{ opacity:0, x:-100 }}
+      whileInView = {{ opacity:1, x:0 }}
+      transition = {{ duration:1, delay:0}}
+      className="mb-6 w-full shrink-0 grow-0 basis-auto md:px-3 lg:px-6 flex items-center lg:justify-center flex-wrap ml-10 sm:ml-0">
+          <div className="flex items-start mt-8 px-8">
+              <div className="shrink-0">
+                  <div className="inline-block rounded-md bg-teal-400-100 p-4 text-teal-700">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                          stroke-width="2" stroke="currentColor" className="h-6 w-6">
+                          <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0l6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 014.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 00-.38 1.21 12.035 12.035 0 007.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 011.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 01-2.25 2.25h-2.25z" />
+                      </svg>
+                  </div>
+              </div>
+              <div className="ml-2 grow">
+                  <p className="font-bold text-lg">
+                      Barath
+                  </p>
+                  <p className="text-neutral-500 ">
+                      President, Club Inferno
+                  </p>
+                  <p className="text-neutral-500 ">
+                      +91 8870197130
+                  </p>
+              </div>
+          </div>
+          <div className="flex items-start mt-8 px-8">
+              <div className="shrink-0">
+                  <div className="inline-block rounded-md bg-teal-400-100 p-4 text-teal-700">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                          stroke-width="2" stroke="currentColor" className="h-6 w-6">
+                          <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0l6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 014.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 00-.38 1.21 12.035 12.035 0 007.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 011.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 01-2.25 2.25h-2.25z" />
+                      </svg>
+                  </div>
+              </div>
+              <div className="ml-2 grow">
+                  <p className="font-bold text-lg">
+                      Kamalesh
+                  </p>
+                  <p className="text-neutral-500 ">
+                      Vice President, Club Inferno
+                  </p>
+                  <p className="text-neutral-500 ">
+                      +91 6374028743
+                  </p>
+              </div>
+          </div>
+          <div className="flex items-start mt-8 px-8">
+              <div className="shrink-0">
+                  <div className="inline-block rounded-md bg-teal-400-100 p-4 text-teal-700">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                          stroke-width="2" stroke="currentColor" className="h-6 w-6">
+                          <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0l6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 014.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 00-.38 1.21 12.035 12.035 0 007.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 011.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 01-2.25 2.25h-2.25z" />
+                      </svg>
+                  </div>
+              </div>
+              <div className="ml-2 grow">
+                  <p className="font-bold text-lg">
+                      Vimal
+                  </p>
+                  <p className="text-neutral-500 ">
+                      Vice President, Club Inferno
+                  </p>
+                  <p className="text-neutral-500 ">
+                      +91 7305658244
+                  </p>
+              </div>
+          </div>
+          <div className="flex items-start mt-8 px-8">
+              <div className="shrink-0">
+                  <div className="inline-block rounded-md bg-teal-400-100 p-4 text-teal-700">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                          stroke-width="2" stroke="currentColor" className="h-6 w-6">
+                          <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0l6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 014.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 00-.38 1.21 12.035 12.035 0 007.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 011.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 01-2.25 2.25h-2.25z" />
+                      </svg>
+                  </div>
+              </div>
+              <div className="ml-2 grow">
+                  <p className="font-bold text-lg">
+                      Abhishek
+                  </p>
+                  <p className="text-neutral-500 ">
+                      Event Coordinator
+                  </p>
+                  <p className="text-neutral-500 ">
+                      +91 6282774734
+                  </p>
+              </div>
+          </div>
       </motion.div>
       <div className="max-w-screen-xl p-4 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
         <p className="mt-8 text-base leading-6 text-center text-gray-400">
