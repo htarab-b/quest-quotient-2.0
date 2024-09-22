@@ -20,6 +20,7 @@ function Hackathon() {
                 <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
                     <div className="py-6 md:py-0 md:px-6 my-auto">
                         <h1 className="text-4xl font-bold text-center">Hackathon Registration</h1>
+                        <h1 className="text-2xl text-center">(25-09-2024)</h1>
                         <p className="pt-2 pb-4 text-center">Please read the rulebook below before applying</p>
                         <div className="">
                             <p className="flex items-start">
